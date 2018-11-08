@@ -62,3 +62,11 @@
 2018-11-07 15:52:21,397 - DBLOGS - INFO - email:  malek@uscis.gov
 2018-11-07 15:52:21,397 - DBLOGS - INFO - phone:  20202202020
 2018-11-07 15:52:23,706 - TestSuite - INFO - ---------------End of Test 001_verify_icecream_store_page_header---------------------
+2018-11-08 14:31:59,485 - TestSuite - INFO - ---------------Begin Test case: 001_verify_smart_app_up_and_running--------------
+2018-11-08 14:31:59,488 - TestSuite - INFO - Test Description: This test will ensure smart app up and running
+2018-11-08 14:31:59,488 - TestSuite - INFO - Test: Functional Test
+2018-11-08 14:31:59,488 - TestSuite - INFO - Tier: dev
+2018-11-08 14:31:59,637 - DBLOGS - INFO - name:   Malekm
+2018-11-08 14:31:59,637 - DBLOGS - INFO - email:  malek@uscis.gov
+2018-11-08 14:31:59,637 - DBLOGS - INFO - phone:  20202202020
+2018-11-08 14:32:02,074 - TestSuite - INFO - ---------------End of Test 001_verify_smart_app_up_and_running---------------------

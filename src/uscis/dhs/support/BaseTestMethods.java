@@ -18,10 +18,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.junit.Assert;
 
 public class BaseTestMethods {
+	static BaseAPPMethods Config = new BaseAPPMethods();
 	public static int speed = 50;
 	public static final String driverLocation = System.getProperty("user.dir")+"/driver/";
 	public static final String osID = System.getProperty("os.name");
-	
+	public static String brwVer = Config.configProp().getProperty("browser_ver");
 	protected BaseTestMethods(){
 		
 	}
@@ -35,9 +36,16 @@ public class BaseTestMethods {
 			System.out.println("Test running in: "+ osID +"machine");
 			
 			if (osID.toLowerCase().contains("mac")) {
+				
 				file = new File(driverLocation+"chromedriver");	
 			} else if (osID.toLowerCase().contains("windows")) {
-				file = new File(driverLocation+"chromedriver.exe");
+				
+				if(brwVer.equals("2.41")) {
+					file = new File(driverLocation+"2_41/chromedriver.exe");
+				}else {
+					file = new File(driverLocation+"chromedriver.exe");
+				}
+				
 			} else {
 				file = new File(driverLocation+"chromedriver");
 			}
