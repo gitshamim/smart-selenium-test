@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="sevatec1s-MacBook-Pro.local" name="uscis.dhs.testSuite.Functional" skipped="0" tests="3" time="5.373" timestamp="2018-10-29T20:00:13">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.XPC_SERVICE_NAME" value="0" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.COLORFGBG" value="7;0" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/classes" />
+    <property name="env.TMPDIR" value="/var/folders/cg/n3xg9kks1c501dqjr3hvxsv80000gq/T/" />
+    <property name="env.PWD" value="/Users/sahmed/projects/smoketest_icecreamshop" />
+    <property name="env.LANG" value="en_US.UTF-8" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/usr/local/Cellar/ant/1.10.5/libexec" />
+    <property name="java.runtime.version" value="1.8.0_191-b12" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.kb0zKXEr6u/Render" />
+    <property name="user.name" value="sahmed" />
+    <property name="env.USER" value="sahmed" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F7:0x0:0x0" />
+    <property name="env.PATH" value="/usr/local/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin" />
+    <property name="user.language" value="en" />
+    <property name="ant.file.smoketest_icecreamshop" value="/Users/sahmed/projects/smoketest_icecreamshop/build.xml" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib" />
+    <property name="env.JAVA_MAIN_CLASS_61497" value="org.apache.tools.ant.launch.Launcher" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.XPC_FLAGS" value="0x0" />
+    <property name="ant.project.name" value="smoketest_icecreamshop" />
+    <property name="java.version" value="1.8.0_191" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="env.ITERM_SESSION_ID" value="w0t0p0:16D3F30F-6953-4330-A557-BAD553EE6E58" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="2" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="sahmed" />
+    <property name="ant.file" value="/Users/sahmed/projects/smoketest_icecreamshop/build.xml" />
+    <property name="os.version" value="10.13.6" />
+    <property name="env.TERM_PROGRAM_VERSION" value="3.2.4" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.191-b12" />
+    <property name="ant.library.dir" value="/usr/local/Cellar/ant/1.10.5/libexec/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="env.TERM" value="xterm-256color" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="user.home" value="/Users/sahmed" />
+    <property name="target" value="1.8" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.TERM_PROGRAM" value="iTerm.app" />
+    <property name="java.library.path" value="/Users/sahmed/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="ant.file.type.smoketest_icecreamshop" value="file" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner uscis.dhs.testSuite.Functional skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/sahmed/projects/smoketest_icecreamshop/junit/TEST-uscis.dhs.testSuite.Functional.xml crashfile=/Users/sahmed/projects/smoketest_icecreamshop/junitvmwatcher5147957600823527402.properties propsfile=/Users/sahmed/projects/smoketest_icecreamshop/junit6454608522986227467.properties" />
+    <property name="java.class.path" value="/Users/sahmed/projects/smoketest_icecreamshop/bin:/Users/sahmed/projects/smoketest_icecreamshop/lib/selenium_jars/selenium-java-3.14.0/client-combined-3.14.0-sources.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/selenium_jars/selenium-java-3.14.0/client-combined-3.14.0.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/selenium_jars/selenium-java-3.14.0/selenium-java-2.35.0.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/selenium_jars/selenium-java-3.14.0/libs/byte-buddy-1.8.15.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/selenium_jars/selenium-java-3.14.0/libs/commons-codec-1.10.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/selenium_jars/selenium-java-3.14.0/libs/commons-exec-1.3.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/selenium_jars/selenium-java-3.14.0/libs/commons-logging-1.2.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/selenium_jars/selenium-java-3.14.0/libs/guava-25.0-jre.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/selenium_jars/selenium-java-3.14.0/libs/httpclient-4.5.5.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/selenium_jars/selenium-java-3.14.0/libs/httpcore-4.4.9.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/selenium_jars/selenium-java-3.14.0/libs/okhttp-3.10.0.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/selenium_jars/selenium-java-3.14.0/libs/okio-1.14.1.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/apache-log4j-1.2.17/log4j-1.2.17.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/jar/commons-lang3-3.1.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/jar/junit-4.12.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/jar/org.apache.commons.io.jar:/Users/sahmed/projects/smoketest_icecreamshop/lib/jar/selenium-java-2.35.0.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar:/usr/local/Cellar/ant/1.10.5/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.10.5/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.10.5/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.10.5/libexec/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="env.TERM_SESSION_ID" value="w0t0p0:16D3F30F-6953-4330-A557-BAD553EE6E58" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.HOME" value="/Users/sahmed" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="java.io.tmpdir" value="/var/folders/cg/n3xg9kks1c501dqjr3hvxsv80000gq/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.DvPcyhkxia/Listeners" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.ext.dirs" value="/Users/sahmed/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/sahmed/projects/smoketest_icecreamshop" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.COLORTERM" value="truecolor" />
+    <property name="basedir" value="/Users/sahmed/projects/smoketest_icecreamshop" />
+    <property name="env.ITERM_PROFILE" value="Default" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/usr/local/Cellar/ant/1.10.5/libexec/lib/ant.jar" />
+    <property name="source" value="1.8" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="build,Functional,junitreport" />
+  </properties>
+  <testcase classname="uscis.dhs.testSuite.Functional" name="verifyIcecreamStoreWelcomeMessage" time="1.939" />
+  <testcase classname="uscis.dhs.testSuite.Functional" name="verifyIcecreamStoreComeOnInPageHeader" time="1.524">
+    <failure message="Unable to find expected value: Whitelabel Error Page error: org.junit.ComparisonFailure: expected:&lt;[whitelabel error page]&gt; but was:&lt;[thanks for stoping by in our icecream shop]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Unable to find expected value: Whitelabel Error Page error: org.junit.ComparisonFailure: expected:&lt;[whitelabel error page]&gt; but was:&lt;[thanks for stoping by in our icecream shop]&gt;
+	at uscis.dhs.support.BaseTestMethods.verify_text(BaseTestMethods.java:87)
+	at uscis.dhs.support.BaseAPPMethods.verify_comeonin_page_header(BaseAPPMethods.java:116)
+	at uscis.dhs.testSuite.Functional.verifyIcecreamStoreComeOnInPageHeader(Functional.java:95)
+</failure>
+  </testcase>
+  <testcase classname="uscis.dhs.testSuite.Functional" name="verifyIcecreamStorePageHeader" time="1.655" />
+  <system-out><![CDATA[ INFO [main] (Functional.java:68) - ---------------Begin Test case: 002_verify_icecream_store_welcome_message--------------
+ INFO [main] (Functional.java:69) - Test Description: This test will verify icecream store home page welcome message
+ INFO [main] (Functional.java:70) - Test: Functional Test
+ INFO [main] (Functional.java:71) - Tier: dev
+Test running in: Mac OS Xmachine
+ INFO [main] (Functional.java:75) - ---------------End of Test 002_verify_icecream_store_welcome_message---------------------
+ INFO [main] (Functional.java:88) - ---------------Begin Test case: 003_verify_icecream_store_come_on_in_page_header--------------
+ INFO [main] (Functional.java:89) - Test Description: This test will verify icecream store home page welcome message
+ INFO [main] (Functional.java:90) - Test: Functional Test
+ INFO [main] (Functional.java:91) - Tier: dev
+Test running in: Mac OS Xmachine
+ INFO [main] (Functional.java:48) - ---------------Begin Test case: 001_verify_icecream_store_page_header--------------
+ INFO [main] (Functional.java:49) - Test Description: This test will ensure icecream store page header
+ INFO [main] (Functional.java:50) - Test: Functional Test
+ INFO [main] (Functional.java:51) - Tier: dev
+Test running in: Mac OS Xmachine
+ INFO [main] (Functional.java:55) - ---------------End of Test 001_verify_icecream_store_page_header---------------------
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052) on port 5735
+Only local connections are allowed.
+Oct 29, 2018 4:00:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052) on port 25955
+Only local connections are allowed.
+Oct 29, 2018 4:00:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+org.junit.ComparisonFailure: expected:<[whitelabel error page]> but was:<[thanks for stoping by in our icecream shop]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at uscis.dhs.support.BaseTestMethods.verify_text(BaseTestMethods.java:82)
+	at uscis.dhs.support.BaseAPPMethods.verify_comeonin_page_header(BaseAPPMethods.java:116)
+	at uscis.dhs.testSuite.Functional.verifyIcecreamStoreComeOnInPageHeader(Functional.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:534)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1196)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1041)
+Starting ChromeDriver 2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052) on port 33836
+Only local connections are allowed.
+Oct 29, 2018 4:00:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

@@ -1,0 +1,64 @@
+2018-10-31 09:43:34,137 - TestSuite - INFO - ---------------Begin Test case: 001_verify_icecream_store_page_header--------------
+2018-10-31 09:43:34,142 - TestSuite - INFO - Test Description: This test will ensure icecream store page header
+2018-10-31 09:43:34,142 - TestSuite - INFO - Test: Functional Test
+2018-10-31 09:43:34,142 - TestSuite - INFO - Tier: dev
+2018-10-31 09:43:34,261 - DBLOGS - INFO - name:   Malekm
+2018-10-31 09:43:34,262 - DBLOGS - INFO - email:  malek@uscis.gov
+2018-10-31 09:43:34,263 - DBLOGS - INFO - phone:  20202202020
+2018-10-31 09:43:37,150 - TestSuite - INFO - ---------------End of Test 001_verify_icecream_store_page_header---------------------
+2018-10-31 13:07:55,341 - TestSuite - INFO - ---------------Begin Test case: 002_verify_icecream_store_welcome_message--------------
+2018-10-31 13:07:55,349 - TestSuite - INFO - Test Description: This test will verify icecream store home page welcome message
+2018-10-31 13:07:55,349 - TestSuite - INFO - Test: Functional Test
+2018-10-31 13:07:55,349 - TestSuite - INFO - Tier: dev
+2018-10-31 13:07:57,720 - TestSuite - INFO - ---------------End of Test 002_verify_icecream_store_welcome_message---------------------
+2018-10-31 13:07:57,721 - TestSuite - INFO - ---------------Begin Test case: 003_verify_icecream_store_come_on_in_page_header--------------
+2018-10-31 13:07:57,721 - TestSuite - INFO - Test Description: This test will verify icecream store home page welcome message
+2018-10-31 13:07:57,721 - TestSuite - INFO - Test: Functional Test
+2018-10-31 13:07:57,721 - TestSuite - INFO - Tier: dev
+2018-10-31 13:07:59,885 - TestSuite - INFO - ---------------Begin Test case: 001_verify_icecream_store_page_header--------------
+2018-10-31 13:07:59,885 - TestSuite - INFO - Test Description: This test will ensure icecream store page header
+2018-10-31 13:07:59,885 - TestSuite - INFO - Test: Functional Test
+2018-10-31 13:07:59,885 - TestSuite - INFO - Tier: dev
+2018-10-31 13:07:59,977 - DBLOGS - INFO - name:   Malekm
+2018-10-31 13:07:59,978 - DBLOGS - INFO - email:  malek@uscis.gov
+2018-10-31 13:07:59,978 - DBLOGS - INFO - phone:  20202202020
+2018-10-31 13:08:01,300 - TestSuite - INFO - ---------------End of Test 001_verify_icecream_store_page_header---------------------
+2018-10-31 13:08:17,134 - TestSuite - INFO - ---------------Begin Test case: 001_verify_icecream_store_page_header--------------
+2018-10-31 13:08:17,136 - TestSuite - INFO - Test Description: This test will ensure icecream store page header
+2018-10-31 13:08:17,137 - TestSuite - INFO - Test: Functional Test
+2018-10-31 13:08:17,137 - TestSuite - INFO - Tier: dev
+2018-10-31 13:08:17,224 - DBLOGS - INFO - name:   Malekm
+2018-10-31 13:08:17,224 - DBLOGS - INFO - email:  malek@uscis.gov
+2018-10-31 13:08:17,224 - DBLOGS - INFO - phone:  20202202020
+2018-10-31 13:08:19,026 - TestSuite - INFO - ---------------End of Test 001_verify_icecream_store_page_header---------------------
+2018-11-01 11:48:43,945 - TestSuite - INFO - ---------------Begin Test case: 001_verify_icecream_store_page_header--------------
+2018-11-01 11:48:43,949 - TestSuite - INFO - Test Description: This test will ensure icecream store page header
+2018-11-01 11:48:43,949 - TestSuite - INFO - Test: Functional Test
+2018-11-01 11:48:43,949 - TestSuite - INFO - Tier: dev
+2018-11-01 11:48:43,950 - DBLOGS - ERROR - Database host name is missing in the config.properties file
+2018-11-01 11:48:43,971 - TestSuite - ERROR - Test 001_verify_icecream_store_page_header failed. Error: -null
+2018-11-01 11:48:43,971 - TestSuite - INFO - ---------------End of Test 001_verify_icecream_store_page_header---------------------
+2018-11-01 11:49:29,400 - TestSuite - INFO - ---------------Begin Test case: 001_verify_icecream_store_page_header--------------
+2018-11-01 11:49:29,402 - TestSuite - INFO - Test Description: This test will ensure icecream store page header
+2018-11-01 11:49:29,402 - TestSuite - INFO - Test: Functional Test
+2018-11-01 11:49:29,402 - TestSuite - INFO - Tier: dev
+2018-11-01 11:49:29,556 - DBLOGS - INFO - name:   Malekm
+2018-11-01 11:49:29,556 - DBLOGS - INFO - email:  malek@uscis.gov
+2018-11-01 11:49:29,556 - DBLOGS - INFO - phone:  20202202020
+2018-11-01 11:49:31,677 - TestSuite - INFO - ---------------End of Test 001_verify_icecream_store_page_header---------------------
+2018-11-07 09:53:26,873 - TestSuite - INFO - ---------------Begin Test case: 001_verify_icecream_store_page_header--------------
+2018-11-07 09:53:26,876 - TestSuite - INFO - Test Description: This test will ensure icecream store page header
+2018-11-07 09:53:26,876 - TestSuite - INFO - Test: Functional Test
+2018-11-07 09:53:26,876 - TestSuite - INFO - Tier: dev
+2018-11-07 09:53:27,048 - DBLOGS - INFO - name:   Malekm
+2018-11-07 09:53:27,048 - DBLOGS - INFO - email:  malek@uscis.gov
+2018-11-07 09:53:27,048 - DBLOGS - INFO - phone:  20202202020
+2018-11-07 09:53:29,661 - TestSuite - INFO - ---------------End of Test 001_verify_icecream_store_page_header---------------------
+2018-11-07 15:52:21,287 - TestSuite - INFO - ---------------Begin Test case: 001_verify_icecream_store_page_header--------------
+2018-11-07 15:52:21,289 - TestSuite - INFO - Test Description: This test will ensure icecream store page header
+2018-11-07 15:52:21,289 - TestSuite - INFO - Test: Functional Test
+2018-11-07 15:52:21,290 - TestSuite - INFO - Tier: dev
+2018-11-07 15:52:21,397 - DBLOGS - INFO - name:   Malekm
+2018-11-07 15:52:21,397 - DBLOGS - INFO - email:  malek@uscis.gov
+2018-11-07 15:52:21,397 - DBLOGS - INFO - phone:  20202202020
+2018-11-07 15:52:23,706 - TestSuite - INFO - ---------------End of Test 001_verify_icecream_store_page_header---------------------
